@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<title>
+	NBA Hangman
+</title>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+  <div id ="all" class="row">
+    <div class ="col-lg-6">
+      <img id="logo" src="assets/images/logo.png" class="img-responsive">
+      <div class="page-header">
+        <h1 class="text-center">HANGMAN</h1>
+        <h2 class="text-center">Press any key to start</h2>
+      </div>
+    </div>   
+    <div id="scoreboard" class="col-lg-5">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 id="new-game" class="panel-title">Your opponent is...</h2>
+        </div> 
+      <div class="panel-body">
+        <h2 id="new-game"></h2>
+        <h2 id="lives"></h2>
+        <h2 id="letters-used"></h2>
+        <h2>WINS: <span id="win-counter"></span></h2>
+        <h2>LOSSES: <span id="loss-counter"></span></h2>
+      </div>
+    </div>   
+
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>
