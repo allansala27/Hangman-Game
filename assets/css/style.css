@@ -1,8 +1,13 @@
-
-
 body {
 	background-image: url("../images/background.jpeg");
+	background-size: cover;
 	color: white;
+	background-repeat: no-repeat;
+}
+
+#logo {
+	height: 80%;
+	width: 80%;
 }
 
 .panel {

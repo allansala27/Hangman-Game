@@ -64,7 +64,7 @@ function guessAndCheck (userGuess) {
 		wrongGuesses.push(userGuess);
 		for (i = 0; i < wrongGuesses.length; i++){
 			if (userGuess === wrongGuesses[i]){
-				wrongGuesses.splice((wrongGuesses.length - 1),1);
+				wrongGuesses.splice(i, 1);
 			}
 		}
 		console.log(guessTeam);
